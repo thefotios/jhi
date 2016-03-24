@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "bin": {
+    "jhi": "dist/index.js"
+  },
   "scripts": {
     "build": "babel es6/ --out-dir dist",
     "start": "node dist/index.js",
+    "start:dev": "babel-node es6/index.es6",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -20,6 +24,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.3.4",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "superagent": "^1.8.2"
   }
 }
