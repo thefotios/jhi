@@ -1,3 +1,5 @@
+[<img src="https://nodei.co/npm/jhi.png?downloads=true" "NPM Badge">](https://www.npmjs.com/package/jhi)
+
 # jhi - Javascript Helper Installer
 This is a super lightweight alternative to one liner `npm` packages.
 If all you want is to share some helper functions, this is the tool.
@@ -11,9 +13,12 @@ It *will* clobber your `index.js`;
 ## Requirements
 Any helpers downloaded must be "requirable" (eg, it must export something).
 
+See `PACKAGES.md` for some recommendations.
+
 ## Usage
 
 1. Add a `.jhirc` file to your application.
+
     ```
     {
       "location": "lib/helpers",
@@ -23,7 +28,6 @@ Any helpers downloaded must be "requirable" (eg, it must export something).
     }
     ```
 
-    
 1. Run `node_modules/.bin/jhi`
 
 # TODO
