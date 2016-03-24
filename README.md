@@ -14,14 +14,16 @@ Any helpers downloaded must be "requirable" (eg, it must export something).
 ## Usage
 
 1. Add a `.jhirc` file to your application.
-  ```json
-  {
-    "location": "lib/helpers",
-    "helpers": {
-      "leftpad": "https://raw.githubusercontent.com/camwest/left-pad/v1.0.1/index.js"
+    ```
+    {
+      "location": "lib/helpers",
+      "helpers": {
+        "leftpad": "https://raw.githubusercontent.com/camwest/left-pad/v1.0.1/index.js"
+      }
     }
-  }
-  ```
+    ```
+
+    
 1. Run `node_modules/.bin/jhi`
 
 # TODO
