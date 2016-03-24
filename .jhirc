@@ -1,0 +1,6 @@
+{
+  "location": "lib/foo/helpers.js",
+  "helpers": {
+    "leftpad": "https://raw.githubusercontent.com/camwest/left-pad/c2222c620ac4c1cbdab73a77c1bffa7bd6fa4f3c/index.js"
+  }
+}
